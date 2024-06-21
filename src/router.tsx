@@ -19,4 +19,4 @@ const routes = createRoutesFromElements(
     </Route>
 )
 
-export const router = createBrowserRouter(routes, { basename: "/react-design-patterns/" });
+export const router = createBrowserRouter(routes, { basename: "/React-design-patterns/" });
