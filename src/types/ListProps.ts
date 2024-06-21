@@ -17,5 +17,5 @@ export type navigationType = {
 export interface ListProps {
     items: userType[] | navigationType[],
     resourceName: string,
-    itemComponent: ((props: { [key: string]: string | React.ReactNode } & { key: React.Key | undefined }) => React.ReactElement) | unknown
+    itemComponent: ((props: { [key: string]: string | React.ReactNode } & { key: React.Key | undefined }) => React.ReactElement)
 }
