@@ -38,7 +38,8 @@ export default function MainNavbar() {
                                 </div>
                                 <div className="hidden sm:ml-6 sm:block">
                                     <div className="flex space-x-4">
-                                        <List items={navigation} resourceName="item" itemComponent={NavElementComponent} />
+                                        <List items={navigation} resourceName="item" itemComponent={NavElementComponent}
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +47,8 @@ export default function MainNavbar() {
                     </div>
                     <DisclosurePanel className="sm:hidden">
                         <div className="space-y-1 px-2 pb-3 pt-2">
-                            <List items={navigation} resourceName="item" itemComponent={NavElementComponent} />
+                            <List items={navigation} resourceName="item" itemComponent={NavElementComponent}
+                            />
                         </div>
                     </DisclosurePanel>
                 </>
