@@ -22,7 +22,6 @@ export default function UsersListPage() {
             <h1 className="text-2xl font-bold">Users List  Component:</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-4 rounded-md">
                 <List items={users?.data} resourceName="user" itemComponent={UserDetails} />
-
             </div>
         </div>
     )

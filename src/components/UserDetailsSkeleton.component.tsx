@@ -1,23 +1,21 @@
 //components
 import UserSkeletonTextComponent from "./UserSkeletonText.component";
 
-
-
 const skeletonProps = [
     {
         height: 'h-4',
+        titleSkeletonSpan: 'col-span-3',
+        textSkeletonSpan: 'col-span-9'
+    },
+    {
+        height: 'h-3',
         titleSkeletonSpan: 'col-span-4',
         textSkeletonSpan: 'col-span-8'
     },
     {
         height: 'h-3',
-        titleSkeletonSpan: 'col-span-3',
-        textSkeletonSpan: 'col-span-9'
-    },
-    {
-        height: 'h-3',
-        titleSkeletonSpan: 'col-span-3',
-        textSkeletonSpan: 'col-span-9'
+        titleSkeletonSpan: 'col-span-4',
+        textSkeletonSpan: 'col-span-8'
     },
 ];
 
