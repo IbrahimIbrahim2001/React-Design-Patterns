@@ -1,5 +1,5 @@
 import { Fragment } from "react/jsx-runtime";
-import { userType } from "../types/ListProps";
+import { userType } from "../types/PresentationalListProps";
 import UserDetailsCardTextComponent from "./UserDetailsCardText.component";
 
 interface UserProps {
